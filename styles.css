@@ -26,6 +26,7 @@ fieldset {
 	padding: 10px;
 	width: 80%;
 }
+
 .cat-pics {
 	display: inline-block;
 /*	position: relative;*/
@@ -51,7 +52,5 @@ a:visited {
 }
 
 @media screen and (max-width: 500px) {
-  body {
     font-size: .7em;
-  }
  }
