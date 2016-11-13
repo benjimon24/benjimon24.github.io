@@ -2,18 +2,30 @@ html {
 	max-width: 1280px;
 	font-family: Verdana;
 	margin: auto;
+	color: black;
+	background-color: #333333;
 }
 
 body{
-/*max-width: 960px;*/
 min-width: 350px;
+padding: 20px;
+background-color: #FFFFFF;
 }
-header {
+
+nav {
 	border: 1px solid black;
 	padding-left: 30px;
 	padding-bottom: 20px;
+	background-image: url(images/american-flag.jpg);
+	background-size: 100%;
+	color: white;
 }
 
+fieldset {
+	margin-top: 20px;
+	padding: 10px;
+	width: 80%;
+}
 .cat-pics {
 	display: inline-block;
 /*	position: relative;*/
@@ -21,7 +33,6 @@ header {
 	border: 1px solid black;
 	margin: 10px;
 	max-width: 500px;
-/*	max-height: 652px;*/
 }
 
 .cat-pics img {
@@ -35,13 +46,6 @@ header {
 	padding: 20px;
 }
 
-/*#intro {
-	border: 1px solid black;
-	margin-top: 20px;
-	padding: 20px;
-}*/
-
-@media screen and (max-width: 500px) {
-  body {
-    font-size: .7em;
-  }
+a:visited { 
+    color: green;
+}
