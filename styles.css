@@ -1,0 +1,47 @@
+html {
+	max-width: 1280px;
+	font-family: Verdana;
+	margin: auto;
+}
+
+body{
+/*max-width: 960px;*/
+min-width: 350px;
+}
+header {
+	border: 1px solid black;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.cat-pics {
+	display: inline-block;
+/*	position: relative;*/
+	padding: 20px;
+	border: 1px solid black;
+	margin: 10px;
+	max-width: 500px;
+/*	max-height: 652px;*/
+}
+
+.cat-pics img {
+	width: 100%;
+	height: auto;
+}
+
+#about-me {
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+/*#intro {
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 20px;
+}*/
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .7em;
+  }
