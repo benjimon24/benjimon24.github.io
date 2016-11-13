@@ -49,3 +49,9 @@ fieldset {
 a:visited { 
     color: green;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .7em;
+  }
+ }
