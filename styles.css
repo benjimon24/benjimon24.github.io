@@ -6,45 +6,46 @@ html {
 	background-color: #333333;
 }
 
-body{
-min-width: 350px;
-padding: 20px;
-background-color: #FFFFFF;
-}
-
 nav {
-	border: 1px solid black;
-	padding-left: 30px;
-	padding-bottom: 20px;
-	background-image: url(images/american-flag.jpg);
-	background-size: 100%;
-	color: white;
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	padding-left: 20px;
+	background-color: white;
+	margin-right: 10px;
+/*	background-image: url(images/american-flag.jpg);
+	background-size: 100%;*/
+/*	color: white;*/
 }
 
-fieldset {
+main {
+	display: inline-block;
+	width: 70%;
+	min-width: 350px;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+/*fieldset {
 	margin-top: 20px;
 	padding: 10px;
 	width: 80%;
-}
+}*/
 
 .cat-pics {
 	display: inline-block;
-/*	position: relative;*/
+	position: relative;
 	padding: 20px;
 	border: 1px solid black;
 	margin: 10px;
-	max-width: 500px;
+	max-width: 350px;
+	height: 550px;
+	vertical-align: top;
 }
 
 .cat-pics img {
 	width: 100%;
 	height: auto;
-}
-
-#about-me {
-	border: 1px solid black;
-	margin-top: 20px;
-	padding: 20px;
 }
 
 a:visited { 
