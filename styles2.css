@@ -1,0 +1,36 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bg-1 {
+	background-image: url("http://northshoreinline.com/wp-content/uploads/2012/03/552923_Bald-Eagle-And-American-Flag.jpg");
+	background-repeat: no-repeat;
+  color: #ffffff;
+	background-position: center;
+}
+
+.bg-2 {
+	background-color: #1abc9c; /* Teal */
+  color: #ffffff;
+  }
+
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+
+.navbar {
+	background-color: #474e5d; /* Dark Blue */
+	background
+  padding: 15px 0px 15px 0px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.navbar-nav li a* {
+	color: white;
+}
