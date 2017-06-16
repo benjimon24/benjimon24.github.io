@@ -9,9 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".sidenav">
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse visible-xs">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,35 +19,75 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">benjimon</a>
+      <a class="navbar-brand" href="#Home">benjimon</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">About Luma</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li class="active"><a href="#Home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container-fluid bg-1 text-center">
-  <h3>Who Am I?</h3>
-  <img class="img-circle" alt="profile-pic" src="" alt="Bird">
-  <h3>I'm an adventurer</h3>
-</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 sidenav hidden-xs" data-spy="affix">
+      <h2>benjimon</h2>
+      <ul class="nav nav-pills nav-stacked" >
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul><br>
+    </div>
 
-<div class="container-fluid bg-2 text-center">
-  <h3>What Am I?</h3>
-  <p>Lorem ipsum..</p>
-</div>
+    <main>
+      <div class="col-md-10 col-md-offset-2 content">
+        <div id="home" class="container-fluid bg-1 text-center home section">
+          <h1>Benjamin Li</h1>
+          <h2>Full Stack Web Developer</h2>
+        </div>
 
-<div class="container-fluid bg-3 text-center">
-  <h3>Where To Find Me?</h3>
-  <p>Lorem ipsum..</p>
-</div>
+        <div id="about" class="container-fluid bg-2 text-center section">
+          <h1>About Me</h1>
+        </div>
 
+        <div id="portfolio" class="container-fluid bg-3 text-center section">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div id="contact" class="container-fluid bg-4 text-center section">
+          <h1>Contact Me</h1>
+        </div>
+    </main>
+
+    </div>
+  </div>
+</div>
 
 </body>
+<footer class="container-fluid bg-4 text-center">
+  <a href="#" class="btn btn-default btn-lg">
+    <!-- <span class="glyphicon glyphicon-search"></span> -->
+    <span class="glyphicon-social-linked-in"></span>
+  </a>
+</footer>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".sidenav a").on('click', function(event) {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 300, function(){
+        window.location.hash = hash;
+      });
+    })
+  });
+
+</script>
 </html>
