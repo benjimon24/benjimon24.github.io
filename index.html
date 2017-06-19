@@ -1,42 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>Benjimon's Page</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <title>benjimon's Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<body data-spy="scroll" data-target=".sidenav">
 
-<body>
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#Home">benjimon</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#Home">Home</a></li>
+        <li><a class="section-link" href="#about">About Me</a></li>
+        <li><a class="section-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="section-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<div id=banner>
-<div>
+<button onclick="returnFunction()" id="returnButton"> <i class="fa fa-arrow-up"></i></button>
 
-	<nav>
-	<h3>Navigation</h3>
-	<ul>
-	    <li><a href="about.html">About Me</a></li>
-	    <li><a href="cat.html">About Luma</a></li>
-	</ul>
-	</nav><!-- 
+<main>
+  <div class="container-fluid background col-xs-12 col-sm-10 col-sm-offset-2 text-center" data-spy="affix">
+    <h1>Benjamin Li</h1>
+    <h2>Full Stack Web Developer</h2>
+  </div>
 
-	<header>
-		<fieldset>
-		<form name="login" action="https://httpbin.org/post" method="post">
-			<label>Username:</label>
-			<input type = "text" name = "username">
-			<label>Password:</label>
-			<input type = "password" name = "password">
-		 <button type="submit">Login</button>
-		</form>
-		</fieldset>
-	</header> -->
+  <div class="container-fluid">
+    <div class="row">
 
-	<main>
-	<h1> Welcome to Benjimon's Page! </h1>
-		<p>I moved all of Luma's pictures to his own page. You can access them below.</p>
-		<!-- <h2>Release 1: Part 4</h2>
-			<p>So now my website looks like a cat blog so I just googled cat blog and compared my website to the first thing I found which was <a href="http://ihavecat.com/">this</a>. I looked at the source code and couldn't really figure out what was happening but I did recognize a few elements like the head, body and title elements. Everything is well organized and the website has buttons for sharing articles to other social media. It also has links to tags and authors that make it easy to organize and follow specific authors or topics. It was kind of intimidating seeing all these complex things in the source code. However, at the same time, I felt like I had a rough idea of where this course is taking me and what I will be capable of in the near future.<p>
-	 -->
-	</main>
-</body>	
+      <div class="col-sm-2 sidenav hidden-xs" data-spy="affix">
+        <h2>benjimon</h2>
+        <ul class="nav nav-pills nav-stacked" >
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a class="section-link" href="#about">About Me</a></li>
+          <li><a class="section-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="section-link" href="#contact">Contact Me</a></li>
+        </ul><br>
+
+        <div class="icons text-center">
+          <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
+          <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
+          <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-2 content">
+        <div id="home" class="container-fluid bg-1 text-center home section">
+
+        </div>
+
+        <div id="about" class="container-fluid bg-2 text-center section">
+          <h1>About Me</h1>
+        </div>
+
+        <div id="portfolio" class="container-fluid bg-3 text-center section">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div id="contact" class="container-fluid bg-4 text-center section">
+          <h1>Contact Me</h1>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="container-fluid text-center">
+  <p>© Benjamin Li. All rights reserved.</p>
+</footer>
+
+</body>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".section-link").on('click', function(event) {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 300, function(){
+        window.location.hash = hash;
+      });
+    })
+  });
+
+  window.onscroll = function() {displayButton()};
+
+  function displayButton() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      $("#returnButton").show();
+    } else {
+      $("#returnButton").hide();
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function returnFunction() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 300);
+  }
+
+</script>
 </html>

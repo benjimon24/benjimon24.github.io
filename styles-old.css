@@ -1,0 +1,57 @@
+html {
+	max-width: 1280px;
+	font-family: Verdana;
+	margin: auto;
+	color: black;
+	background-color: #333333;
+}
+
+nav {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	padding-left: 20px;
+	background-color: white;
+	margin-right: 10px;
+/*	background-image: url(images/american-flag.jpg);
+	background-size: 100%;*/
+/*	color: white;*/
+}
+
+main {
+	display: inline-block;
+	width: 70%;
+	min-width: 350px;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+/*fieldset {
+	margin-top: 20px;
+	padding: 10px;
+	width: 80%;
+}*/
+
+.cat-pics {
+	display: inline-block;
+	position: relative;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 10px;
+	max-width: 350px;
+	height: 550px;
+	vertical-align: top;
+}
+
+.cat-pics img {
+	width: 100%;
+	height: auto;
+}
+
+a:visited { 
+    color: green;
+}
+
+@media screen and (max-width: 500px) {
+    font-size: .7em;
+ }
