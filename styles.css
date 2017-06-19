@@ -45,6 +45,11 @@
   height: 100vh;
 }
 
+.avatar {
+  border-radius: 25px;
+  margin: 9%;
+}
+
 .sidenav ul li.active a{
   border-width: 1px 5px 1px 0px;
   border-color: black;
@@ -112,4 +117,9 @@
   background-color: #555;
   color: white;
   opacity: 0.7;
+}
+
+footer {
+  background-color: white;
+  color: white;
 }
