@@ -39,7 +39,7 @@
   </nav>
 
   <main>
-    <div class="background-container container-fluid">
+    <div class="background-container container-fluid row">
       <div class="background col-xs-12 col-sm-10 col-sm-offset-2" data-spy="affix">
         <h2 class="align-bottom">Benjamin Li</h2>
         <h2>Full Stack Web Developer</h2>
@@ -52,7 +52,7 @@
       <div class="row">
 
         <div class="sidenav col-sm-2 hidden-xs" data-spy="affix">
-        <span><img class="avatar" src="images/avatar.jpg" alt="avatar" width=80%>
+          <span><img class="avatar" src="images/luma.jpg" alt="avatar" width=80%>
           <h2 class="text-center">Benjamin Li</h2>
           <h4 class="text-center">Full Stack Web Developer</h4>
           <ul class="nav nav-pills nav-stacked" >
@@ -64,7 +64,7 @@
             <li><a class="section-link" href="#contact">Contact Me</a></li>
           </ul><br>
 
-          <div class="icons text-center align-bottom">
+          <div class="icons text-center">
             <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
             <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
             <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
@@ -72,17 +72,24 @@
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-2 content">
-          <div id="home" class="container-fluid text-center home section"></div>
+          <div id="home" class="text-center home section"></div>
 
-          <div id="about" class="container-fluid bg-2 text-center section">
-            <h1>About Me</h1>
+          <div id="about" class="bg-2 text-center section">
+            <div class="col-xs-12 col-md-8">
+              <h1>About Me</h1>
+              <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
+            </div>
+            <div class="col-md-4">
+              <!-- need to fix the height of this image -->
+              <img style="max-width: 100%; max-height: 100%; border-radius: 25px;" src="images/avatar.jpg" alt="self">
+            </div>
           </div>
 
-          <div id="skills" class="container-fluid bg-3 text-center section">
+          <div id="skills" class="bg-3 text-center section">
             <h1>Skills</h1>
           </div>
 
-          <div id="portfolio" class="container-fluid bg-2 text-center section">
+          <div id="portfolio" class="bg-2 text-center section">
             <h2>Portfolio</h2>
           </div>
 
@@ -96,6 +103,9 @@
 
           <footer class="container-fluid bg-4 text-center">
             <p>© Benjamin Li. All rights reserved.</p>
+            <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
+            <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
+            <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
           </footer>
         </div>
       </div>

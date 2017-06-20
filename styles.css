@@ -17,8 +17,8 @@
 }
 
 .bg-2 {
-	background-color: #1abc9c;
-  /*color: #ffffff;*/
+	background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
   }
 
 .bg-3 {
@@ -41,12 +41,13 @@
 
 
 .sidenav {
+  background-color: black;
   padding: 0px;
   height: 100vh;
 }
 
 .avatar {
-  border-radius: 25px;
+  border-radius: 50%;
   margin: 9%;
 }
 
@@ -86,8 +87,8 @@
  }
 
  .icons {
-   /*display: inline-block;*/
-   /*vertical-align: bottom;*/
+   /*position: absolute;*/
+   bottom: 5px;
    letter-spacing: 3px;
  }
 
@@ -120,6 +121,7 @@
 }
 
 footer {
+  padding: 20px;
   background-color: white;
   color: white;
 }
