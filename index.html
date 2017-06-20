@@ -29,7 +29,9 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#Home">Home</a></li>
           <li><a class="section-link" href="#about">About Me</a></li>
+          <li><a class="section-link" href="#skills">Skills</a></li>
           <li><a class="section-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="section-link" href="#gallery">Gallery</a></li>
           <li><a class="section-link" href="#contact">Contact Me</a></li>
         </ul>
       </div>
@@ -37,9 +39,11 @@
   </nav>
 
   <main>
-    <div class="container-fluid background col-xs-12 col-sm-10 col-sm-offset-2 text-center" data-spy="affix">
-      <h2>Benjamin Li</h2>
-      <h2>Full Stack Web Developer</h2>
+    <div class="background-container container-fluid">
+      <div class="background col-xs-12 col-sm-10 col-sm-offset-2" data-spy="affix">
+        <h2 class="align-bottom">Benjamin Li</h2>
+        <h2>Full Stack Web Developer</h2>
+      </div>
     </div>
 
     <button id="returnButton"> <i class="fa fa-arrow-up"></i></button>
@@ -49,11 +53,14 @@
 
         <div class="sidenav col-sm-2 hidden-xs" data-spy="affix">
         <span><img class="avatar" src="images/avatar.jpg" alt="avatar" width=80%>
-          <h2>benjimon</h2>
+          <h2 class="text-center">Benjamin Li</h2>
+          <h4 class="text-center">Full Stack Web Developer</h4>
           <ul class="nav nav-pills nav-stacked" >
             <li class="active"><a href="#home">Home</a></li>
             <li><a class="section-link" href="#about">About Me</a></li>
+            <li><a class="section-link" href="#skills">Skills</a></li>
             <li><a class="section-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="section-link" href="#gallery">Gallery</a></li>
             <li><a class="section-link" href="#contact">Contact Me</a></li>
           </ul><br>
 
@@ -65,21 +72,28 @@
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-2 content">
-          <div id="home" class="container-fluid bg-1 text-center home section">
-          </div>
+          <div id="home" class="container-fluid text-center home section"></div>
 
           <div id="about" class="container-fluid bg-2 text-center section">
             <h1>About Me</h1>
           </div>
 
-          <div id="portfolio" class="container-fluid bg-3 text-center section">
+          <div id="skills" class="container-fluid bg-3 text-center section">
+            <h1>Skills</h1>
+          </div>
+
+          <div id="portfolio" class="container-fluid bg-2 text-center section">
             <h2>Portfolio</h2>
+          </div>
+
+          <div id="gallery" class="container-fluid bg-3 text-center section">
+            <h1>Gallery</h1>
           </div>
 
           <div id="contact" class="container-fluid bg-4 text-center section">
             <h1>Contact Me</h1>
           </div>
-          
+
           <footer class="container-fluid bg-4 text-center">
             <p>© Benjamin Li. All rights reserved.</p>
           </footer>
