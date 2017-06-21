@@ -1,4 +1,4 @@
-.section {
+/*.section {
   height: 100vh;
   padding: 70px;
   margin: 0px;
@@ -23,7 +23,7 @@
 
 .bg-3 {
   background-color: black;
-  /*color: #555555;*/
+  color: #555555;
 }
 
 .bg-4 {
@@ -31,7 +31,7 @@
 }
 
 .navbar {
-	/*background-color: #474e5d;*/
+	background-color: #474e5d;
   padding: 15px 0px 15px 0px;
   border: 0;
   margin-bottom: 0;
@@ -76,9 +76,6 @@
  }
 
  .social {
-   /*-webkit-transform: scale(1);
-   -moz-transform: scale(1);
-   -o-transform: scale(1);*/
    font-size:32px;
    color: black;
    -webkit-transition-duration: 0.5s;
@@ -87,7 +84,6 @@
  }
 
  .icons {
-   /*position: absolute;*/
    bottom: 5px;
    letter-spacing: 3px;
  }
@@ -124,4 +120,4 @@ footer {
   padding: 20px;
   background-color: white;
   color: white;
-}
+}*/
