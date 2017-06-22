@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
@@ -37,104 +37,76 @@
 
   <main>
 
-  <div class="container-fluid">
-    <div class="row">
-
-      <nav class="col-md-2 hidden-sm-down bg-inverse text-white sidebar">
-        <span><img class="avatar" src="images/luma.jpg" alt="avatar" width=80%>
-        <h3 class="text-center">Benjamin Li</h2>
-        <h4 class="text-center">Full Stack Web Developer</h4>
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-        </ul>
-        <div class="icons text-center">
-          <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
-          <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
-          <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-        </div>
-      </nav>
-
-      <button id="returnButton"> <i class="fa fa-arrow-up"></i></button>
-
-        <div class="background col-sm-12 col-md-10 offset-md-2">
-          <div class="background-text">
-            <h2>Benjamin Li</h2>
-            <h2>Full Stack Web Developer</h2>
-          </div>
-        </div>
-    </div>
-  </div>
-
-
-
-        <!--
-
     <div class="container-fluid">
       <div class="row">
-
-        <div class="sidenav col-sm-2 hidden-xs" data-spy="affix">
-          <span><img class="avatar" src="images/luma.jpg" alt="avatar" width=80%>
-          <h2 class="text-center">Benjamin Li</h2>
+        <nav class="col-md-2 hidden-sm-down bg-inverse text-white sidebar">
+          <img class="avatar" src="images/luma.jpg" alt="avatar" width=80%>
+          <h3 class="text-center">Benjamin Li</h2>
           <h4 class="text-center">Full Stack Web Developer</h4>
-          <ul class="nav nav-pills nav-stacked" >
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a class="section-link" href="#about">About Me</a></li>
-            <li><a class="section-link" href="#skills">Skills</a></li>
-            <li><a class="section-link" href="#portfolio">Portfolio</a></li>
-            <li><a class="section-link" href="#gallery">Gallery</a></li>
-            <li><a class="section-link" href="#contact">Contact Me</a></li>
-          </ul><br>
-
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+          </ul>
           <div class="icons text-center">
             <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
             <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
             <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
           </div>
+        </nav>
+
+        <button id="returnButton"> <i class="fa fa-arrow-up"></i></button>
+
+        <div class="content col-sm-12 col-md-10 offset-md-2">
+
+          <div id="home" class="background section">
+            <div class="background-text">
+              <h2>Benjamin Li</h2>
+              <h2>Full Stack Web Developer</h2>
+            </div>
+          </div>
+
+        <div id="about" class="bg-2 section">
+          <div class="col-xs-12 col-md-8">
+            <h1>About Me</h1>
+            <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
+          </div>
+          <div class="col-md-4">
+            <img class="profile" src="images/avatar.jpg" alt="self">
+          </div>
         </div>
 
-        <div class="col-xs-12 col-sm-10 col-sm-offset-2 content">
-          <div id="home" class="text-center home section"></div>
+        <div id="skills" class="bg-3 text-center section">
+          <h1>Skills</h1>
+        </div>
 
-          <div id="about" class="bg-2 text-center section">
-            <div class="col-xs-12 col-md-8">
-              <h1>About Me</h1>
-              <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
-            </div>
-            <div class="col-md-4">
-              <img style="max-width: 100%; max-height: 100%; border-radius: 25px;" src="images/avatar.jpg" alt="self">
-            </div>
-          </div>
+        <div id="portfolio" class="bg-2 text-center section">
+          <h2>Portfolio</h2>
+        </div>
 
-          <div id="skills" class="bg-3 text-center section">
-            <h1>Skills</h1>
-          </div>
+        <div id="gallery" class="container-fluid bg-3 text-center section">
+          <h1>Gallery</h1>
+        </div>
 
-          <div id="portfolio" class="bg-2 text-center section">
-            <h2>Portfolio</h2>
-          </div>
+        <div id="contact" class="container-fluid bg-4 text-center section">
+          <h1>Contact Me</h1>
+        </div>
 
-          <div id="gallery" class="container-fluid bg-3 text-center section">
-            <h1>Gallery</h1>
-          </div>
-
-          <div id="contact" class="container-fluid bg-4 text-center section">
-            <h1>Contact Me</h1>
-          </div>
-
-          <footer class="container-fluid bg-4 text-center">
-            <p>© Benjamin Li. All rights reserved.</p>
+        <footer class="container-fluid bg-4 text-center">
+          <p>© Benjamin Li. All rights reserved.</p>
+          <span class="icons">
             <a href="https://www.github.com/benjimon24"><i id="social-git" class="fa fa-github social"></i></a>
             <a href="https://www.linkedin.com/in/bli91/"><i id="social-li" class="fa fa-linkedin-square social"></i></a>
             <a href="mailto:benji102491@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-          </footer>
-        </div>
+          </span>
+        </footer>
       </div>
-    </div> -->
+
+      </div>
+    </div>
 
   </main>
 

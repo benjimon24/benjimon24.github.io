@@ -1,9 +1,12 @@
+.content {
+  padding: 0px;
+}
+
 .section {
   height: 100vh;
   padding: 70px;
   margin: 0px;
   width: 100%;
-  vertical-align: bottom;
 }
 
 .background{
@@ -14,7 +17,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  /*text-align: center;*/
+}
+
+.background-text {
 }
 
 .bg-2 {
@@ -39,7 +44,7 @@
 
 
 .sidebar {
-  background-color: black;
+  /*background-color: black;*/
   padding: 0px;
   height: 100vh;
   position: fixed;
@@ -68,6 +73,11 @@
   padding: 0px;
 }
 
+.profile {
+  max-width: 100%;
+  border-radius: 25px;
+}
+
 .social:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -83,9 +93,6 @@
  }
 
  .icons {
-   /*display: block;
-   position: fixed;
-   bottom: 5%;*/
    letter-spacing: 3px;
  }
 
@@ -102,7 +109,7 @@
  }
 
 #returnButton {
-  /*display: none;*/
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
