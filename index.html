@@ -15,8 +15,7 @@
   </script>
 </head>
 
-<!-- <body data-spy="scroll" data-target=".sidenav"> -->
-<body>
+<body data-spy="scroll" data-target=".sidebar">
 
   <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top hidden-md-up">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,6 +38,7 @@
 
     <div class="container-fluid">
       <div class="row">
+
         <nav class="col-md-2 hidden-sm-down bg-inverse text-white sidebar">
           <img class="avatar" src="images/luma.jpg" alt="avatar" width=80%>
           <h3 class="text-center">Benjamin Li</h2>
@@ -70,13 +70,17 @@
           </div>
 
         <div id="about" class="bg-2 section">
-          <div class="col-xs-12 col-md-8">
-            <h1>About Me</h1>
-            <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
+          <div class="row">
+            <div class="col-md-8">
+              <h1>About Me</h1>
+              <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
+            </div>
+            <div class="col-md-4">
+              <img class="profile" src="images/avatar.jpg" alt="self">
+            </div>
+
           </div>
-          <div class="col-md-4">
-            <img class="profile" src="images/avatar.jpg" alt="self">
-          </div>
+
         </div>
 
         <div id="skills" class="bg-3 text-center section">

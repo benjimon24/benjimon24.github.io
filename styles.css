@@ -20,6 +20,9 @@
 }
 
 .background-text {
+  position: fixed;
+  margin: auto;
+  bottom: 30%;
 }
 
 .bg-2 {
@@ -55,15 +58,11 @@
   margin: 9%;
 }
 
-.sidebar ul li.active a{
+/*.sidebar ul li.active a{
   border-width: 1px 5px 1px 0px;
   border-color: black;
   border-style: solid;
-}
-
-.sidebar ul li {
-  margin: 0px;
-}
+}*/
 
 .sidebar ul li a{
   border-radius: 0px;
