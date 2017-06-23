@@ -4,6 +4,14 @@
   letter-spacing: 2px;
 }
 
+a {
+  color: rgb(135, 135, 135);
+}
+
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
 .sidebar {
   background-color: white;
   padding: 0px;
@@ -21,9 +29,16 @@
   text-align: center;
 }
 
+/*.sidebar .brand {
+  border: 0px;
+  border-bottom: 1px;
+  border-color: #6A5325;
+  border-style: solid;
+}*/
+
 .sidebar ul li .nav-link.active {
   color: #6A5325;
-  border-width: 1px 10px 1px 0px;
+  border-width: 1px 5px 1px 0px;
   border-radius: 0px;
   border-color: #6A5325;
   border-style: solid;
@@ -33,6 +48,10 @@
   padding-left: 10px;
   color: black;
   border: none;
+  border-width: 1px 0px 1px 0px;
+  border-radius: 0px;
+  border-color: #6A5325;
+  border-style: solid;
 }
 
 .sidebar-icons {
@@ -147,4 +166,12 @@ footer {
   padding: 20px;
   background-color: white;
   color: white;
+}
+
+.carousel-img {
+  display: block;
+  width: auto;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }

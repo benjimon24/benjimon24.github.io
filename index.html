@@ -69,42 +69,44 @@
 
         <nav class="col-md-2 hidden-sm-down sidebar">
           <a href="#home"><img class="avatar" src="images/avatar.jpg" alt="avatar" width=80%></a>
-          <h3 class="text-center">Benjamin Li</h2>
-          <h4 class="text-center">Full Stack Web Developer</h4>
+          <div class="brand">
+            <h4 class="text-center">Benjamin Li</h4>
+            <h5 class="text-center">Web Developer</h5>
+          </div>
           <ul class="nav nav-tabs flex-column">
             <li class="nav-item">
               <a class="nav-link active" href="#home">
-                <span class="menu-icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down" ><i class="fa fa-home" aria-hidden="true"></i></span>
                 <span class="nav-name">Home</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">
-                <span class="menu-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down"><i class="fa fa-user" aria-hidden="true"></i></span>
                 <span class="nav-name">About Me</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">
-                <span class="menu-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down"><i class="fa fa-desktop" aria-hidden="true"></i></span>
                 <span class="nav-name">Skills</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">
-                <span class="menu-icon"><i class="fa fa-folder-open" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down"><i class="fa fa-folder-open" aria-hidden="true"></i></span>
                 <span class="nav-name">Portfolio</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#gallery">
-                <span class="menu-icon"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
                 <span class="nav-name">Gallery</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">
-                <span class="menu-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                <span class="menu-icon hidden-md-down"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
                 <span class="nav-name">Contact Me</span>
               </a>
             </li>
@@ -122,46 +124,44 @@
 
           <div class="background section"></div>
 
-          <div id="home" class="section row" style="height:100vh">
+          <div id="home" class="section row" style="height:100vh; padding: 0px">
             <div class="background-text card my-auto mx-auto">
               <div class="card-block">
-                  <h4>BENJAMIN LI</h4>
-                  <h4>WEB DEVELOPER</h4>
+                  <h3>BENJAMIN LI</h3>
+                  <h3>WEB DEVELOPER</h3>
               </div>
             </div>
           </div>
 
-          <div id="about" class="container-fluid bg-2 section">
-            <div class="row">
-              <div class="col-md-8">
+          <div id="about" class="container-fluid text-center bg-2 section">
+            <!-- <div class="row"> -->
+              <!-- <div class="col-md-8"> -->
                 <h1>About Me</h1>
-                <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my projects!</p>
-              </div>
-              <div class="col-md-4">
+                <p>My name is Benjamin Li. I am a web developer living in New York City who recently graduated from Dev Bootcamp. I can build full-stack applications using Ruby on Rails, React, jQuery, Postgres, HTML, and CSS. Scroll down to see some of my <a href="#portfolio">projects!</a></p>
+              <!-- </div> -->
+              <!-- <div class="col-md-4"> -->
                 <!-- <img class="profile" width=100% src="images/avatar.jpg" alt="self"> -->
-              </div>
+              <!-- </div> -->
 
-            </div>
+            <!-- </div> -->
           </div>
 
           <div id="skills" class="container-fluid bg-3 text-center section">
             <h1>Skills</h1>
             <p>Here are a list of languages and technologies I have worked with:</p>
             <div class="row">
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/ruby.png" alt="ruby"> <p>Ruby</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/javascript.png" alt="javascript"> <p>Javascript</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/rails.png" alt="rails"> <p>Ruby on Rails</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/react.png" alt="react"><p>React</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/jquery.png" alt="jquery"><p>jQuery</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/git.jpg" alt="git"><p>Git</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/postgres.png" alt="postgres"><p>PostgreSQL</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/html5.png" alt="html5"><p>HTML5</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/css3.png" alt="css3"><p>CSS3</p></div>
-              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/heroku.png" alt="heroku"><p>Heroku</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/ruby.png" alt="ruby"> <p>Ruby</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/javascript.png" alt="javascript"> <p>Javascript</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/rails.png" alt="rails"> <p>Ruby on Rails</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/react.png" alt="react"><p>React</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/jquery.png" alt="jquery"><p>jQuery</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/git.jpg" alt="git"><p>Git</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/postgres.png" alt="postgres"><p>PostgreSQL</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/html5.png" alt="html5"><p>HTML5</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/css3.png" alt="css3"><p>CSS3</p></div>
+              <div class="col-6 col-md-4"> <img class="skill-icon" src="images/skills/heroku.png" alt="heroku"><p>Heroku</p></div>
             </div>
           </div>
-
-
 
           <div id="portfolio" class="container-fluid bg-4 text-center section">
             <h2>Portfolio</h2>
@@ -169,6 +169,46 @@
 
           <div id="gallery" class="container-fluid bg-3 text-center section">
             <h1>Gallery</h1>
+            <p>If you weren't here to see my portfolio, then you're probably here to see pictures of my cat. </p>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block carousel-img" src="images/bitey.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/cat box.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/facepaw.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/mousepad.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/rem.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/sleeping 3.jpg" alt="Sixth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/sleeping 4.jpg" alt="Seventh slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/sleeping 5.jpg" alt="Eighth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block carousel-img" src="images/mugshot.jpg" alt="Ninth slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
 
           <div id="contact" class="container-fluid bg-2 text-center section">
