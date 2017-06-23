@@ -92,10 +92,11 @@
   color: black;
 }
 
+.skill-icon {
+  max-height: 100px;
+}
+
 .footer-icons {
-  /*position: absolute;*/
-  /*text-align: center;*/
-  /*bottom: 5px;*/
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
