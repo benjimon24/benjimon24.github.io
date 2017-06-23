@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".nav-link").on('click', function(event) {
+  $(".nav-link, .text-link").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
@@ -19,9 +19,9 @@ $(document).ready(function(){
 
   function displayButton() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      $("#returnButton").show();
+      $("#returnButton").fadeIn();
     } else {
-      $("#returnButton").hide();
+      $("#returnButton").fadeOut();
     }
 
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {

@@ -21,13 +21,6 @@
   text-align: center;
 }
 
-/*.sidebar .brand {
-  border: 0px;
-  border-bottom: 1px;
-  border-color: #6A5325;
-  border-style: solid;
-}*/
-
 .sidebar ul li .nav-link.active {
   background-color: #6A5325;
   color: white !important;
@@ -113,16 +106,16 @@
 }
 
 .bg-4 {
-  background-color: rgba(200,200,200,0.7);
+  background-color: rgba(200,200,200,0.8);
   color: black;
 }
 
 .bg-4 a {
-  color: rgb(100, 100, 100);
+  color: rgb(75, 75, 75);
 }
 
 .bg-4 a:hover {
-  color: rgb(75, 75, 75);
+  color: rgb(125, 125, 125);
 }
 
 .skill-icon {
