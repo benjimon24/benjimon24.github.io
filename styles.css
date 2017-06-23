@@ -4,14 +4,6 @@
   letter-spacing: 2px;
 }
 
-a {
-  color: rgb(135, 135, 135);
-}
-
-a:hover {
-  color: rgb(200, 200, 200);
-}
-
 .sidebar {
   background-color: white;
   padding: 0px;
@@ -37,11 +29,9 @@ a:hover {
 }*/
 
 .sidebar ul li .nav-link.active {
-  color: #6A5325;
-  border-width: 1px 5px 1px 0px;
-  border-radius: 0px;
-  border-color: #6A5325;
-  border-style: solid;
+  background-color: #6A5325;
+  color: white !important;
+
 }
 
 .sidebar ul li .nav-link{
@@ -49,6 +39,14 @@ a:hover {
   color: black;
   border: none;
   border-width: 1px 0px 1px 0px;
+  border-radius: 0px;
+  border-color: #6A5325;
+  border-style: solid;
+}
+
+.sidebar ul li .nav-link:hover{
+  color: #6A5325;
+  border-width: 1px 5px 1px 0px;
   border-radius: 0px;
   border-color: #6A5325;
   border-style: solid;
@@ -101,14 +99,30 @@ a:hover {
   color: #ffffff;
 }
 
+.bg-2 a {
+  color: rgb(175, 175, 175);
+}
+
+.bg-2 a:hover {
+  color: rgb(225, 225, 225);
+}
+
 .bg-3 {
   background-color: rgba(25,25,25,0.5);
   color: #FFFFFF;
 }
 
 .bg-4 {
-  background-color: rgba(200,200,200,0.4);
+  background-color: rgba(200,200,200,0.7);
   color: black;
+}
+
+.bg-4 a {
+  color: rgb(100, 100, 100);
+}
+
+.bg-4 a:hover {
+  color: rgb(75, 75, 75);
 }
 
 .skill-icon {
