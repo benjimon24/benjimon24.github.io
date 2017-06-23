@@ -83,12 +83,12 @@
 }
 
 .bg-3 {
-  background-color: rgba(50,50,50,0.9);
+  background-color: rgba(25,25,25,0.5);
   color: #FFFFFF;
 }
 
 .bg-4 {
-  background-color: rgba(200,200,200,0.8);
+  background-color: rgba(200,200,200,0.4);
   color: black;
 }
 
