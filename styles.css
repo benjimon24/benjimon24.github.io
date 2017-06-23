@@ -89,7 +89,7 @@
 }
 
 .section {
-  padding: 100px;
+  padding: 100px 20px 100px 20px;
   margin: 0px;
   width: 100%;
 }
@@ -127,6 +127,12 @@
 
 .skill-icon {
   max-height: 100px;
+}
+
+.project {
+  margin: 20px;
+  border-top: 1px solid black;
+  padding-top: 20px;
 }
 
 .footer-icons {
