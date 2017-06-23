@@ -34,13 +34,6 @@
   border: none;
 }
 
-.sidebar .icons {
-  position: absolute;
-  text-align: center;
-  bottom: 5px;
-  width: 100%;
-}
-
 .avatar {
   border: 1px solid black;
   border-radius: 25px;
@@ -105,6 +98,10 @@
  }
 
  .icons {
+   position: absolute;
+   text-align: center;
+   bottom: 5px;
+   width: 100%;
    letter-spacing: 3px;
    margin: 5px;
  }
