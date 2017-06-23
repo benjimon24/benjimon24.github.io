@@ -1,72 +1,93 @@
+.navbar {
+  padding: 15px 0px 15px 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.sidebar {
+  background-color: white;
+  padding: 0px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar ul {
+  border: none;
+}
+
+.menu-icon {
+  display: inline-block;
+  width: 30px;
+}
+
+.sidebar ul li .nav-link.active {
+  color: #6A5325;
+  border-width: 1px 10px 1px 0px;
+  border-radius: 0px;
+  border-color: #6A5325;
+  border-style: solid;
+}
+
+.sidebar ul li .nav-link{
+  padding-left: 20px;
+  color: black;
+  border: none;
+}
+
+.sidebar .icons {
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 9%;
+}
+
+.background{
+  position: fixed;
+  background-image: url("https://wallpaperscraft.com/image/basketball_basketball_court_wall_building_63199_2048x1152.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-text {
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+}
+
+.content {
+  padding: 0px;
+}
+
 .section {
   height: 100vh;
   padding: 70px;
   margin: 0px;
   width: 100%;
-  vertical-align: bottom;
-}
-
-.background{
-  background-image: url("images/wallpaper.jpg");
-  padding: 80vh 0vh 20vh 5vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
 }
 
 .bg-2 {
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.7);
   color: #ffffff;
-  }
+}
 
 .bg-3 {
-  background-color: black;
-  /*color: #555555;*/
+  background-color: rgba(50,50,50,0.9);
+  color: #FFFFFF;
 }
 
 .bg-4 {
-  background-color: rgb(188, 163, 213);
-}
-
-.navbar {
-	/*background-color: #474e5d;*/
-  padding: 15px 0px 15px 0px;
-  border: 0;
-  margin-bottom: 0;
-  font-size: 16px;
-  letter-spacing: 2px;
-}
-
-
-.sidenav {
-  background-color: black;
-  padding: 0px;
-  height: 100vh;
-}
-
-.avatar {
-  border-radius: 50%;
-  margin: 9%;
-}
-
-.sidenav ul li.active a{
-  border-width: 1px 5px 1px 0px;
-  border-color: black;
-  border-style: solid;
-}
-
-.sidenav ul li {
-  margin: 0px;
-}
-
-.sidenav ul li a{
-  border-radius: 0px;
-}
-
-.content {
-  padding: 0px;
+  background-color: rgba(200,200,200,0.8);
+  color: black;
 }
 
 .social:hover {
@@ -76,10 +97,7 @@
  }
 
  .social {
-   /*-webkit-transform: scale(1);
-   -moz-transform: scale(1);
-   -o-transform: scale(1);*/
-   font-size:32px;
+   font-size: 32px;
    color: black;
    -webkit-transition-duration: 0.5s;
    -moz-transition-duration: 0.5s;
@@ -87,9 +105,8 @@
  }
 
  .icons {
-   /*position: absolute;*/
-   bottom: 5px;
    letter-spacing: 3px;
+   margin: 5px;
  }
 
  #social-git:hover {
