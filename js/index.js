@@ -30,4 +30,14 @@ $(document).ready(function(){
       $(".background-text").fadeIn();
     }
   }
+
+  $(".modal-img").on('click', function(){
+    $("#modal").css("display", "block");
+    $("#modal-image").attr("src", $(this).attr("src"))
+  })
+
+  $("#modal").on('click', function(){
+    $("#modal").css("display", "none");
+  })
+
 });
