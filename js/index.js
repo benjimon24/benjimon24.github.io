@@ -18,15 +18,11 @@ $(document).ready(function(){
   window.onscroll = function(){displayButton()};
 
   function displayButton() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      $("#returnButton").fadeIn();
-    } else {
-      $("#returnButton").fadeOut();
-    }
-
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      $("#returnButton").fadeIn();
       $(".background-text").fadeOut();
     } else {
+      $("#returnButton").fadeOut();
       $(".background-text").fadeIn();
     }
   }
