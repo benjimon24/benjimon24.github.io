@@ -5,7 +5,7 @@
 }
 
 .sidebar {
-  background-color: white;
+  background-color: #eeeeee;
   padding: 0px;
   height: 100vh;
   position: fixed;
@@ -13,6 +13,9 @@
 
 .sidebar ul {
   border: none;
+}
+
+.brand {
 }
 
 .menu-icon {
@@ -23,25 +26,25 @@
 
 .sidebar ul li .nav-link.active {
   background-color: #6a5325;
-  color: white !important;
+  color: white;
 }
 
 .sidebar ul li .nav-link {
   padding-left: 10px;
   color: black;
-  border: none;
+  /* border: none;
   border-width: 1px 0px 1px 0px;
   border-radius: 0px;
   border-color: #6a5325;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .sidebar ul li .nav-link:hover {
   color: #6a5325;
-  border-width: 1px 5px 1px 0px;
-  border-radius: 0px;
+  border-width: 0px 0px 0px 0px;
+  /* border-radius: 0px;
   border-color: #6a5325;
-  border-style: solid;
+  border-style: solid;  */
 }
 
 .sidebar-icons {
@@ -54,9 +57,13 @@
 }
 
 .avatar {
-  border: 1px solid black;
   border-radius: 25px;
   margin: 9%;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.brand {
+  margin-left: 20px;
 }
 
 .background {
