@@ -12,6 +12,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       
+    - name: Remove original folder
+      run: rm -rf original/
+      
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:

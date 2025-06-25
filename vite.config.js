@@ -22,4 +22,12 @@ export default defineConfig({
     loader: 'tsx',
     include: /src\/.*\.[jt]sx?$/,
   },
+  server: {
+    fs: {
+      deny: ['original/**']
+    },
+    watch: {
+      ignored: ['**/original/**']
+    }
+  },
 })
