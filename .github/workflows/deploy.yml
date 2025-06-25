@@ -4,12 +4,6 @@ on:
   push:
     branches: [ master ]
   workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch to deploy (enter branch name)'
-        required: true
-        default: 'master'
-        type: string
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -32,28 +26,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.inputs.branch || github.ref }}
-        
+      
     - name: Display deployment info
       run: |
-        echo "🚀 Deploying from branch: ${{ github.event.inputs.branch || github.ref_name }}"
+        echo "🚀 Deploying from branch: ${{ github.ref_name }}"
         echo "📝 Triggered by: ${{ github.event_name }}"
         
-    - name: Validate branch exists
-      if: github.event.inputs.branch
-      run: |
-        echo "📝 Available branches:"
-        git ls-remote --heads origin | sed 's/.*refs\/heads\//  - /'
-        echo ""
-        if ! git ls-remote --heads origin ${{ github.event.inputs.branch }} | grep -q ${{ github.event.inputs.branch }}; then
-          echo "❌ Branch '${{ github.event.inputs.branch }}' does not exist!"
-          echo "💡 Please use one of the available branches listed above."
-          exit 1
-        else
-          echo "✅ Branch '${{ github.event.inputs.branch }}' found"
-        fi
-      
     - name: Remove original folder
       run: rm -rf original/
       
@@ -85,5 +63,5 @@ jobs:
       run: |
         echo "✅ Deployment successful!"
         echo "🌐 Site URL: https://benjimon24.github.io"
-        echo "📋 Branch deployed: ${{ github.event.inputs.branch || github.ref_name }}"
+        echo "📋 Branch deployed: ${{ github.ref_name }}"
         echo "🔗 Deployment URL: ${{ steps.deployment.outputs.page_url }}"
