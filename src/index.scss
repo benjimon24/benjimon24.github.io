@@ -1,0 +1,22 @@
+// Global Sass variables
+$font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+$background-color: white;
+
+// Global reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: $background-color;
+  font-family: $font-family;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}

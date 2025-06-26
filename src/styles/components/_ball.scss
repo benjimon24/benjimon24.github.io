@@ -1,0 +1,66 @@
+@use '../variables' as *;
+
+.ball {
+  position: absolute;
+  // width and height are now set dynamically via inline styles
+  background: 
+    radial-gradient(ellipse 60% 50% at 30% 30%, rgba(255, 255, 255, 0.3), transparent 50%),
+    radial-gradient(circle at center, #ff6b6b, #ff4757, #e74c3c, #c0392b);
+  border-radius: 50%;
+  cursor: grab;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+    inset 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  z-index: 10;
+  user-select: none;
+
+  // Main highlight for spherical effect
+  &::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 30%;
+    height: 30%;
+    background: radial-gradient(ellipse, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2) 40%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  // Secondary highlight for extra roundness
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 25%;
+    right: 30%;
+    width: 15%;
+    height: 15%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent 60%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 
+      0 6px 16px rgba(0, 0, 0, 0.4),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.15),
+      inset 0 0 25px rgba(0, 0, 0, 0.25);
+  }
+
+  &.dragging {
+    cursor: grabbing;
+    transform: scale(1.1);
+    box-shadow: 
+      0 8px 20px rgba(0, 0, 0, 0.5),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.2),
+      inset 0 0 30px rgba(0, 0, 0, 0.3);
+    transition: none;
+  }
+
+  &:active:not(.dragging) {
+    transform: scale(0.95);
+  }
+}

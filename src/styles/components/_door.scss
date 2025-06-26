@@ -1,0 +1,49 @@
+@use '../variables' as *;
+
+.door {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: $door-width;
+  height: $door-height;
+  background-color: $door-bg;
+  border: $line-width solid $primary-color;
+  
+  // Door handle - positioned to avoid bezel overlap
+  &::before {
+    content: '';
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $handle-size;
+    height: $handle-size;
+    background-color: $handle-color;
+    border-radius: 50%;
+    z-index: 2; // Ensure handle appears above bezels
+  }
+  
+  // Inner bezels
+  &::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: $bezel-width solid $bezel-color;
+    z-index: 1;
+  }
+  
+  // Additional bezel detail
+  .door-bezel {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    border: $bezel-width solid $tertiary-color;
+    z-index: 1;
+  }
+}
