@@ -23,7 +23,6 @@ export default defineConfig({
     include: /src\/.*\.[jt]sx?$/,
   },
   server: {
-    port: 3000,
     fs: {
       deny: ['original/**']
     },
