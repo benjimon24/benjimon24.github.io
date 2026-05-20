@@ -5,17 +5,18 @@ import { justifyLayout } from "../lib/justifyLayout";
 
 // Gap scales with viewport so tablets don't waste horizontal space
 const getGap = (width: number) => {
-  if (width < 768) return 24;
-  if (width < 1280) return 40;
-  return 64;
+  if (width < 768) return 32;
+  if (width < 1280) return 56;
+  if (width < 1600) return 80;
+  return 96;
 };
 
 const getTargetRowHeight = (width: number) => {
   if (width < 640) return 0; // mobile fallback: single column
-  if (width < 900) return 300; // small tablets
-  if (width < 1280) return 400; // iPad Air portrait & landscape
-  if (width < 1600) return 540; // small laptops
-  return 680; // wide desktops
+  if (width < 900) return 320; // small tablets
+  if (width < 1280) return 440; // iPad Air portrait & landscape
+  if (width < 1600) return 600; // small laptops
+  return 760; // wide desktops
 };
 
 export const ProjectGrid: React.FC = () => {
@@ -77,11 +78,11 @@ export const ProjectGrid: React.FC = () => {
                       className="block object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                     />
                   </div>
-                  <div className="pt-4">
+                  <div className="pt-6">
                     <div className="text-sm text-stone-900">{item.title}</div>
                     <div
                       style={{ fontFamily: "var(--font-mono)" }}
-                      className="mt-1.5 text-[10px] tracking-[0.25em] uppercase text-stone-500"
+                      className="mt-2 text-[10px] tracking-[0.25em] text-stone-500"
                     >
                       {item.role}
                     </div>
@@ -110,11 +111,11 @@ export const ProjectGrid: React.FC = () => {
                   className="block w-full transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                 />
               </div>
-              <div className="pt-4">
+              <div className="pt-6">
                 <div className="text-base text-stone-900">{item.title}</div>
                 <div
                   style={{ fontFamily: "var(--font-mono)" }}
-                  className="mt-1.5 text-[10px] tracking-[0.25em] uppercase text-stone-500"
+                  className="mt-2 text-[10px] tracking-[0.25em] text-stone-500"
                 >
                   {item.role}
                 </div>

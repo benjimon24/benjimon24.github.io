@@ -2,8 +2,8 @@ import { site } from "../data/site";
 
 export const About: React.FC = () => {
   return (
-    <section className="mx-auto max-w-6xl px-8 py-24 lg:px-12 lg:py-32">
-      <div className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-24">
+    <section className="mx-auto max-w-6xl px-8 py-48 lg:px-12 lg:py-64">
+      <div className="grid grid-cols-1 gap-20 lg:grid-cols-12 lg:gap-32">
         <div className="lg:col-span-5">
           <img
             src={site.aboutPortrait}
@@ -11,8 +11,8 @@ export const About: React.FC = () => {
             className="w-full object-cover"
           />
         </div>
-        <div className="space-y-10 lg:col-span-7">
-          <p className="text-xs tracking-[0.4em] uppercase text-stone-500">
+        <div className="space-y-12 lg:col-span-7">
+          <p className="text-xs tracking-[0.4em] text-stone-500">
             About
           </p>
           <h1
@@ -29,19 +29,19 @@ export const About: React.FC = () => {
 
           <dl className="grid grid-cols-1 gap-8 border-t border-stone-200 pt-12 sm:grid-cols-2">
             <div>
-              <dt className="text-[10px] tracking-[0.3em] uppercase text-stone-500">
+              <dt className="text-[10px] tracking-[0.3em] text-stone-500">
                 Based in
               </dt>
               <dd className="mt-2 text-stone-900">{site.location}</dd>
             </div>
             <div>
-              <dt className="text-[10px] tracking-[0.3em] uppercase text-stone-500">
+              <dt className="text-[10px] tracking-[0.3em] text-stone-500">
                 Contact
               </dt>
               <dd className="mt-2">
                 <a
                   href={`mailto:${site.email}`}
-                  className="text-stone-900 underline-offset-4 hover:underline"
+                  className="case-normal text-stone-900 underline-offset-4 hover:underline"
                 >
                   {site.email}
                 </a>
