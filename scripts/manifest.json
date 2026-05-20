@@ -1,0 +1,1270 @@
+{
+  "homepage": {
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/DjGvycNwtKwY8LjyqsxEf5NWk7A.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/zgbbkX4bY33E0RC0OMbY8ruTNc.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/HJyyXTgfEn1Wp6oGMoewI1HDk4.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/MFe7OO3MYYIj5gJ7myFNHyKc2HY.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/zp7wSL3sm4C39tb4PlZTsnoe9Ms.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Jh4Iwaear0QRuJOdu1Pph9KHI.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/1S5FkW3KKNGYPHUXBaZummCL3c.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/UhveYvwlTd7RIZzP2oWchdNDJF4.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/BKjhU5X6MERAd6GmsxfqUuaefw.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/ILTsulIRLi0GCd4fkB58ZdNEEk.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/bDEFdt3NXQtLTY2iVbeUPCF2gs.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/g06MmpilQFZCPWEiSzlxCorDE.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/99QzjUQKv098rFuXLQx5wFdd1A.png"
+      },
+      {
+        "src": "https://framerusercontent.com/images/DZgDw3NiOHA8cg7FUiLCwwH71tU.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/ZNRnH4XX20KSCNXhrAGoEYI3zs.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/A2dEyFzIVEeH2WdfI5RDNoYpb7I.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/3OqsTqLJnf54R1h5v6muyv5ETE.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/jIXMU532T7Xjegx7N5GupQz7tjw.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/FFKKJywAFYVF2W8y9t9SPms3OIg.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Dc9cAqKFRG8Nmk3Kqq832uLXc.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/UhwuCpATFvsKSPRlSHlE9lgzFbw.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/jRaQbdF3yrf9GwVkp2KCTdPmDsY.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/ccC24X69IFueK8CVhgmMng5Bc.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/nzVGPlsJSiYHrVaLIS7tIjMwlU.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/0c5PXUWcWU5VlMFOC6T2QjIBt4w.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/HOmjXR1jY0iQF6nBdG88qCNhVWo.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/HTxSIMxnNgPfNuGKynItfqhfvfE.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/wX3wv6L1Zr9QwEUKj3JRB0g3QNI.jpg"
+      },
+      {
+        "src": "https://framerusercontent.com/images/Z8xUo6OVmIb2oczTABHYqK1zDR4.jpg"
+      }
+    ],
+    "orderedCovers": [
+      {
+        "slug": "part-1-pd-models-2nd-anniversary",
+        "src": "https://framerusercontent.com/images/DjGvycNwtKwY8LjyqsxEf5NWk7A.jpg"
+      },
+      {
+        "slug": "part-2-pd-models-2nd-anniversary",
+        "src": "https://framerusercontent.com/images/HJyyXTgfEn1Wp6oGMoewI1HDk4.jpg"
+      },
+      {
+        "slug": "ed-comm1",
+        "src": "https://framerusercontent.com/images/MFe7OO3MYYIj5gJ7myFNHyKc2HY.jpg"
+      },
+      {
+        "slug": "ed-comm2",
+        "src": "https://framerusercontent.com/images/zp7wSL3sm4C39tb4PlZTsnoe9Ms.jpg"
+      },
+      {
+        "slug": "ed-comm3",
+        "src": "https://framerusercontent.com/images/Jh4Iwaear0QRuJOdu1Pph9KHI.jpg"
+      },
+      {
+        "slug": "ed-comm4",
+        "src": "https://framerusercontent.com/images/1S5FkW3KKNGYPHUXBaZummCL3c.jpg"
+      },
+      {
+        "slug": "ed-comm5",
+        "src": "https://framerusercontent.com/images/UhveYvwlTd7RIZzP2oWchdNDJF4.jpg"
+      },
+      {
+        "slug": "seifini",
+        "src": "https://framerusercontent.com/images/BKjhU5X6MERAd6GmsxfqUuaefw.jpg"
+      },
+      {
+        "slug": "ed-comm6",
+        "src": "https://framerusercontent.com/images/ILTsulIRLi0GCd4fkB58ZdNEEk.jpg"
+      },
+      {
+        "slug": "dimplehsu-2",
+        "src": "https://framerusercontent.com/images/bDEFdt3NXQtLTY2iVbeUPCF2gs.jpg"
+      },
+      {
+        "slug": "dimplehsu",
+        "src": "https://framerusercontent.com/images/g06MmpilQFZCPWEiSzlxCorDE.jpg"
+      },
+      {
+        "slug": "ed-comm7",
+        "src": "https://framerusercontent.com/images/99QzjUQKv098rFuXLQx5wFdd1A.png"
+      },
+      {
+        "slug": "ed-comm8",
+        "src": "https://framerusercontent.com/images/DZgDw3NiOHA8cg7FUiLCwwH71tU.jpg"
+      },
+      {
+        "slug": "ed-comm9",
+        "src": "https://framerusercontent.com/images/ZNRnH4XX20KSCNXhrAGoEYI3zs.jpg"
+      },
+      {
+        "slug": "ed-comm10",
+        "src": "https://framerusercontent.com/images/A2dEyFzIVEeH2WdfI5RDNoYpb7I.jpg"
+      },
+      {
+        "slug": "ed-comm11",
+        "src": "https://framerusercontent.com/images/3OqsTqLJnf54R1h5v6muyv5ETE.jpg"
+      },
+      {
+        "slug": "ed-comm12",
+        "src": "https://framerusercontent.com/images/jIXMU532T7Xjegx7N5GupQz7tjw.jpg"
+      },
+      {
+        "slug": "ed-comm13",
+        "src": "https://framerusercontent.com/images/FFKKJywAFYVF2W8y9t9SPms3OIg.jpg"
+      },
+      {
+        "slug": "ed-comm14",
+        "src": "https://framerusercontent.com/images/Dc9cAqKFRG8Nmk3Kqq832uLXc.jpg"
+      },
+      {
+        "slug": "ed-comm15",
+        "src": "https://framerusercontent.com/images/UhwuCpATFvsKSPRlSHlE9lgzFbw.jpg"
+      },
+      {
+        "slug": "ed-comm16",
+        "src": "https://framerusercontent.com/images/jRaQbdF3yrf9GwVkp2KCTdPmDsY.jpg"
+      },
+      {
+        "slug": "special-project-for-on",
+        "src": "https://framerusercontent.com/images/ccC24X69IFueK8CVhgmMng5Bc.jpg"
+      },
+      {
+        "slug": "ed-comm17",
+        "src": "https://framerusercontent.com/images/nzVGPlsJSiYHrVaLIS7tIjMwlU.jpg"
+      },
+      {
+        "slug": "ed-comm18",
+        "src": "https://framerusercontent.com/images/0c5PXUWcWU5VlMFOC6T2QjIBt4w.jpg"
+      },
+      {
+        "slug": "ed-comm19",
+        "src": "https://framerusercontent.com/images/HOmjXR1jY0iQF6nBdG88qCNhVWo.jpg"
+      },
+      {
+        "slug": "ed-comm20",
+        "src": "https://framerusercontent.com/images/HTxSIMxnNgPfNuGKynItfqhfvfE.jpg"
+      },
+      {
+        "slug": "ed-comm21",
+        "src": "https://framerusercontent.com/images/wX3wv6L1Zr9QwEUKj3JRB0g3QNI.jpg"
+      },
+      {
+        "slug": "dimplehsu3",
+        "src": "https://framerusercontent.com/images/Z8xUo6OVmIb2oczTABHYqK1zDR4.jpg"
+      }
+    ],
+    "orderedSlugs": [
+      "part-1-pd-models-2nd-anniversary",
+      "part-2-pd-models-2nd-anniversary",
+      "ed-comm1",
+      "ed-comm2",
+      "ed-comm3",
+      "ed-comm4",
+      "ed-comm5",
+      "seifini",
+      "ed-comm6",
+      "dimplehsu-2",
+      "dimplehsu",
+      "ed-comm7",
+      "ed-comm8",
+      "ed-comm9",
+      "ed-comm10",
+      "ed-comm11",
+      "ed-comm12",
+      "ed-comm13",
+      "ed-comm14",
+      "ed-comm15",
+      "ed-comm16",
+      "special-project-for-on",
+      "ed-comm17",
+      "ed-comm18",
+      "ed-comm19",
+      "ed-comm20",
+      "ed-comm21",
+      "dimplehsu3"
+    ]
+  },
+  "projects": {
+    "part-1-pd-models-2nd-anniversary": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/DjGvycNwtKwY8LjyqsxEf5NWk7A.jpg?scale-down-to=2048&width=6656&height=2700",
+          "alt": "",
+          "width": 648,
+          "height": 262
+        },
+        {
+          "src": "https://framerusercontent.com/images/zgbbkX4bY33E0RC0OMbY8ruTNc.jpg?scale-down-to=2048&width=2700&height=3600",
+          "alt": "",
+          "width": 1439,
+          "height": 1919
+        },
+        {
+          "src": "https://framerusercontent.com/images/lMjx0iXWkXVYa2neNyk9kJk1QE.jpg?scale-down-to=2048&width=2700&height=3600",
+          "alt": "",
+          "width": 1439,
+          "height": 1919
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Part 1 - PD Models  2nd Anniversary",
+        "Production",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "part-2-pd-models-2nd-anniversary": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/7vBPAnWAfXzOSKCTfaKp7m4Yg.jpg?scale-down-to=1024&width=5315&height=3518",
+          "alt": "",
+          "width": 648,
+          "height": 429
+        },
+        {
+          "src": "https://framerusercontent.com/images/zjCk4uwMJLmtf4OaTbFmO1wmc.jpg?width=2700&height=4050",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/xxNTvdKn12WXjXYQn0NgEd41c.jpg?scale-down-to=2048&width=5315&height=3543",
+          "alt": "",
+          "width": 1440,
+          "height": 959
+        },
+        {
+          "src": "https://framerusercontent.com/images/CYOKjeudNY1bWfpHzXuOtdg.jpg?scale-down-to=1024&width=2700&height=4050",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        },
+        {
+          "src": "https://framerusercontent.com/images/Cn3G2oA8jg49DokfS2IeUQyuJ0.jpg?scale-down-to=1024&width=5315&height=3543",
+          "alt": "",
+          "width": 664,
+          "height": 442
+        },
+        {
+          "src": "https://framerusercontent.com/images/2ViPvyl17sCFYXc6cjJOWEiKIqU.jpg?scale-down-to=1024&width=2700&height=4050",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        },
+        {
+          "src": "https://framerusercontent.com/images/oNfIhtg0JHa0Vz5t8Amsuqdo9KE.jpg?scale-down-to=1024&width=5315&height=3543",
+          "alt": "",
+          "width": 664,
+          "height": 442
+        },
+        {
+          "src": "https://framerusercontent.com/images/CfnnhQguFAeFUIHfbKhH7BESvE.jpg?scale-down-to=1024&width=2700&height=4050",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        },
+        {
+          "src": "https://framerusercontent.com/images/tE756CQ2Pt7pv6a6loDBTHewDE.jpg?scale-down-to=1024&width=5315&height=3543",
+          "alt": "",
+          "width": 664,
+          "height": 442
+        },
+        {
+          "src": "https://framerusercontent.com/images/RNVM6Lgc7foj6oHR7P8WiUhB0Fw.jpg?scale-down-to=1024&width=2700&height=4050",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Part 2 - PD Models 2nd Anniversary",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm1": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/MFe7OO3MYYIj5gJ7myFNHyKc2HY.jpg?scale-down-to=1024&width=828&height=1101",
+          "alt": "",
+          "width": 647,
+          "height": 861
+        },
+        {
+          "src": "https://framerusercontent.com/images/pihBCXA2d4aojpMNXFhrDPfP1c.jpg?width=828&height=1102",
+          "alt": "",
+          "width": 1440,
+          "height": 1916
+        },
+        {
+          "src": "https://framerusercontent.com/images/9B4QX7OOcswfGNztwKk9AnvArM.jpg?width=828&height=1102",
+          "alt": "",
+          "width": 1440,
+          "height": 1916
+        },
+        {
+          "src": "https://framerusercontent.com/images/6kpxpNe65zkwhz7eWDYFTwVsL7c.jpg?scale-down-to=1024&width=828&height=1102",
+          "alt": "",
+          "width": 663,
+          "height": 884
+        },
+        {
+          "src": "https://framerusercontent.com/images/EU3AMHXLxybex8BVCbOJtlJI.jpg?scale-down-to=1024&width=1280&height=1920",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm2": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/zp7wSL3sm4C39tb4PlZTsnoe9Ms.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/8OvGme96BeCcmemoiJMDOkpn0Q.jpg?width=1080&height=1623",
+          "alt": "",
+          "width": 1440,
+          "height": 2164
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm3": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/Jh4Iwaear0QRuJOdu1Pph9KHI.jpg?scale-down-to=1024&width=1620&height=1080",
+          "alt": "",
+          "width": 648,
+          "height": 432
+        },
+        {
+          "src": "https://framerusercontent.com/images/SAtirhgXjXsUGGbQ7JxXON6IJcU.jpg?width=828&height=1097",
+          "alt": "",
+          "width": 1440,
+          "height": 1907
+        },
+        {
+          "src": "https://framerusercontent.com/images/a9CIlLHYOWAX2evrRvC0ogQ3T4.jpg?width=1080&height=1620",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/OLdMnIeGJ6EMRwGeCxmmrFmcDU.jpg?scale-down-to=1024&width=1620&height=1080",
+          "alt": "",
+          "width": 664,
+          "height": 442
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm4": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/1S5FkW3KKNGYPHUXBaZummCL3c.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/vzoIfLPYVIxTjvzgnBgatKrDYFM.jpg?width=1080&height=1620",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/x2wRIWo6YGtag2LEaAFmCMGI.jpg?width=828&height=1095",
+          "alt": "",
+          "width": 1440,
+          "height": 1904
+        },
+        {
+          "src": "https://framerusercontent.com/images/GEDaacnbjg1j4S3J4DqjzFxuHk8.jpg?scale-down-to=1024&width=826&height=1096",
+          "alt": "",
+          "width": 664,
+          "height": 881
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm5": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/UhveYvwlTd7RIZzP2oWchdNDJF4.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/1U2CaKs7WJ4s3ZlLzUN0hNXtGTc.jpg?width=828&height=1100",
+          "alt": "",
+          "width": 1440,
+          "height": 1913
+        },
+        {
+          "src": "https://framerusercontent.com/images/YRdKvJX7bTw1USosXqay8iYg9s.jpg?width=828&height=1099",
+          "alt": "",
+          "width": 1440,
+          "height": 1911
+        },
+        {
+          "src": "https://framerusercontent.com/images/HtpI8BCajlHfy23V6OOXELa4.jpg?scale-down-to=1024&width=828&height=1099",
+          "alt": "",
+          "width": 664,
+          "height": 881
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "seifini": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/aqNfqSxReGqGzN1R1MkrA1nFRw.jpg?scale-down-to=1024&width=1280&height=848",
+          "alt": "",
+          "width": 648,
+          "height": 429
+        },
+        {
+          "src": "https://framerusercontent.com/images/EZijAvah7atVz7BOW7hNEg5x3Lw.jpg?width=1280&height=994",
+          "alt": "",
+          "width": 1440,
+          "height": 1118
+        },
+        {
+          "src": "https://framerusercontent.com/images/aLA2QsI8I8Phmysqw8Tf3m0eI.jpg?width=1280&height=853",
+          "alt": "",
+          "width": 1440,
+          "height": 959
+        },
+        {
+          "src": "https://framerusercontent.com/images/bU56TxGVUAk7GOY7GliWmbs8eg.jpg?scale-down-to=1024&width=1280&height=1899",
+          "alt": "",
+          "width": 663,
+          "height": 985
+        },
+        {
+          "src": "https://framerusercontent.com/images/Y0L6wq7xGeMHkRt00EN5YfG5VY.jpg?scale-down-to=1024&width=1080&height=1603",
+          "alt": "",
+          "width": 664,
+          "height": 986
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Seifini",
+        "Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm6": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/ILTsulIRLi0GCd4fkB58ZdNEEk.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/xYJhw14ZyqZkYqAGj4PkeFh73b0.jpg?width=1168&height=756",
+          "alt": "",
+          "width": 1440,
+          "height": 932
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "dimplehsu-2": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/4z7Mi0lpPFOGzqRXmmO29VnX4.jpg?width=646&height=974",
+          "alt": "",
+          "width": 648,
+          "height": 977
+        },
+        {
+          "src": "https://framerusercontent.com/images/I5suMbbGCghTEpZojd1WbNaqxMM.jpg?width=750&height=1131",
+          "alt": "",
+          "width": 1440,
+          "height": 2171
+        },
+        {
+          "src": "https://framerusercontent.com/images/nA0qLwXhtNWL76cFZUlIrXVGc8.jpg?width=627&height=951",
+          "alt": "",
+          "width": 1440,
+          "height": 2184
+        },
+        {
+          "src": "https://framerusercontent.com/images/8L9lj0v7n2RM9Hu8PM7Bb0ouLw.jpg?scale-down-to=1024&width=750&height=1074",
+          "alt": "",
+          "width": 664,
+          "height": 950
+        },
+        {
+          "src": "https://framerusercontent.com/images/tuBM3zvQs4Q268ZVxT6BIiqVUM.jpg?width=637&height=950",
+          "alt": "",
+          "width": 664,
+          "height": 990
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Dimplehsu",
+        "Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "dimplehsu": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/g06MmpilQFZCPWEiSzlxCorDE.jpg?scale-down-to=1024&width=1192&height=794",
+          "alt": "",
+          "width": 648,
+          "height": 431
+        },
+        {
+          "src": "https://framerusercontent.com/images/b6RxswWWPW969lAk5Ny3OgXZqM.jpg?width=714&height=1080",
+          "alt": "",
+          "width": 1439,
+          "height": 2178
+        },
+        {
+          "src": "https://framerusercontent.com/images/XIdW7NDUF0SWbcE4FqgAjMiUWbs.jpg?width=794&height=1192",
+          "alt": "",
+          "width": 1440,
+          "height": 2161
+        },
+        {
+          "src": "https://framerusercontent.com/images/EhWGG0LPxTICUXHEEDjRzh1qGRM.jpg?scale-down-to=1024&width=717&height=1080",
+          "alt": "",
+          "width": 664,
+          "height": 1001
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Dimplehsu",
+        "Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm7": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/99QzjUQKv098rFuXLQx5wFdd1A.png?scale-down-to=1024&width=1026&height=1533",
+          "alt": "",
+          "width": 648,
+          "height": 968
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm8": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/DZgDw3NiOHA8cg7FUiLCwwH71tU.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/KZOGKTBp1mvLK7KeP3gb9WcjJU.jpg?width=810&height=1130",
+          "alt": "",
+          "width": 1440,
+          "height": 2008
+        },
+        {
+          "src": "https://framerusercontent.com/images/J0U9sQApzD01Vrd9mH5CbzFTQQE.jpg?width=787&height=1175",
+          "alt": "",
+          "width": 1440,
+          "height": 2149
+        },
+        {
+          "src": "https://framerusercontent.com/images/0hoW96wLnFoMdw9mNSzPYuafI.jpg?scale-down-to=1024&width=1080&height=1501",
+          "alt": "",
+          "width": 664,
+          "height": 923
+        },
+        {
+          "src": "https://framerusercontent.com/images/JRZH4ownWoC4vfQKRE69e3kMzZw.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        },
+        {
+          "src": "https://framerusercontent.com/images/vFDsmK31OdDIoAZ97nn3vWReE.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Directioin",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm9": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/ZNRnH4XX20KSCNXhrAGoEYI3zs.jpg?scale-down-to=1024&width=828&height=1104",
+          "alt": "",
+          "width": 648,
+          "height": 864
+        },
+        {
+          "src": "https://framerusercontent.com/images/YNu17vzEDzYSDA6GrrcuxitRYw.jpg?width=828&height=1100",
+          "alt": "",
+          "width": 1440,
+          "height": 1913
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm10": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/A2dEyFzIVEeH2WdfI5RDNoYpb7I.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        },
+        {
+          "src": "https://framerusercontent.com/images/wXoduliyuvS31pkT85rndtG0M5Y.jpg?width=1620&height=1080",
+          "alt": "",
+          "width": 1440,
+          "height": 960
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm11": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/qRIlxz21z2Z2dOGVZ3tUxFMxvk.jpg?scale-down-to=1024&width=823&height=1088",
+          "alt": "",
+          "width": 648,
+          "height": 857
+        },
+        {
+          "src": "https://framerusercontent.com/images/cRraS6ZB9eBKFsCkXCR0bPnUpQ.jpg?width=828&height=1104",
+          "alt": "",
+          "width": 1440,
+          "height": 1920
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm12": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/0P2uD5hs6edNssSrzyyjwUEXa7o.jpg?scale-down-to=1024&width=1280&height=1767",
+          "alt": "",
+          "width": 648,
+          "height": 895
+        },
+        {
+          "src": "https://framerusercontent.com/images/Y3UUJnJaXPe2rBrQSRQS6YUxm3I.jpg?width=1080&height=1620",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/8OZ1FXSrW8NvFyICEG7qToHwG0.jpg?width=1080&height=1621",
+          "alt": "",
+          "width": 1440,
+          "height": 2161
+        },
+        {
+          "src": "https://framerusercontent.com/images/jIXMU532T7Xjegx7N5GupQz7tjw.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 664,
+          "height": 996
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm13": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/FFKKJywAFYVF2W8y9t9SPms3OIg.jpg?scale-down-to=1024&width=1080&height=1610",
+          "alt": "",
+          "width": 648,
+          "height": 967
+        },
+        {
+          "src": "https://framerusercontent.com/images/IRPm7ekVwgDnPqhg9NVYgLSwcIY.jpg?width=1080&height=1621",
+          "alt": "",
+          "width": 1440,
+          "height": 2161
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm14": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/sJ93xjVyp43cYXw7hxKWeILnNs.jpg?scale-down-to=1024&width=810&height=1155",
+          "alt": "",
+          "width": 648,
+          "height": 924
+        },
+        {
+          "src": "https://framerusercontent.com/images/od9gTB1CDFGWbqo5WXmAy40Ddk.jpg?width=810&height=1146",
+          "alt": "",
+          "width": 1440,
+          "height": 2037
+        },
+        {
+          "src": "https://framerusercontent.com/images/Pp5oCtJp6XBTMRVeJnH7VKakM.jpg?width=1078&height=1527",
+          "alt": "",
+          "width": 1440,
+          "height": 2039
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm15": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/UhwuCpATFvsKSPRlSHlE9lgzFbw.jpg?scale-down-to=1024&width=1080&height=1620",
+          "alt": "",
+          "width": 648,
+          "height": 972
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Photography",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm16": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/jRaQbdF3yrf9GwVkp2KCTdPmDsY.jpg?width=1080&height=1716",
+          "alt": "",
+          "width": 648,
+          "height": 1029
+        },
+        {
+          "src": "https://framerusercontent.com/images/1Clbhms6b4UwqGuJ7UXB3y5CgE.jpg?width=1080&height=1620",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Photography",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "special-project-for-on": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/ccC24X69IFueK8CVhgmMng5Bc.jpg?scale-down-to=1024&width=828&height=1059",
+          "alt": "",
+          "width": 648,
+          "height": 829
+        },
+        {
+          "src": "https://framerusercontent.com/images/WbhIN73j3J0HAYSshsmnvbEmt74.jpg?width=828&height=1027",
+          "alt": "",
+          "width": 1440,
+          "height": 1786
+        },
+        {
+          "src": "https://framerusercontent.com/images/JZ6BCC0Rx568RDhpw1dNy3ZEY.jpg?width=828&height=1056",
+          "alt": "",
+          "width": 1440,
+          "height": 1836
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Special Project - ON",
+        "Production, Creative Direction",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm17": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/97H4tpGJoxBQgTSPOdjmsQEr1s.jpg?scale-down-to=1024&width=784&height=1178",
+          "alt": "",
+          "width": 648,
+          "height": 974
+        },
+        {
+          "src": "https://framerusercontent.com/images/YAlcbGwRhOZBg45KKgyGMRtQPew.jpg?width=728&height=994",
+          "alt": "",
+          "width": 1440,
+          "height": 1966
+        },
+        {
+          "src": "https://framerusercontent.com/images/oZzeDYpAL44NV28PL61GzPMh1k.jpg?width=1080&height=1620",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/HaYDm9FPHfUYZQjx9f9T8P8n9g8.jpg?scale-down-to=1024&width=952&height=1216",
+          "alt": "",
+          "width": 664,
+          "height": 848
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Photography, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm18": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/0c5PXUWcWU5VlMFOC6T2QjIBt4w.jpg?scale-down-to=1024&width=810&height=1080",
+          "alt": "",
+          "width": 648,
+          "height": 864
+        },
+        {
+          "src": "https://framerusercontent.com/images/b82sAg1H9fz1f38iffVmYMeJFIY.jpg?width=1484&height=1080",
+          "alt": "",
+          "width": 1440,
+          "height": 1047
+        },
+        {
+          "src": "https://framerusercontent.com/images/SqpHGbuF7yj7T0lJRfFl3QbEoyg.jpg?width=810&height=1200",
+          "alt": "",
+          "width": 1440,
+          "height": 2133
+        },
+        {
+          "src": "https://framerusercontent.com/images/jqQiq1hpBuOrymsOcgDvQC8zx2w.jpg?scale-down-to=1024&width=1438&height=1080",
+          "alt": "",
+          "width": 664,
+          "height": 498
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction, Styling",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm19": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/HOmjXR1jY0iQF6nBdG88qCNhVWo.jpg?scale-down-to=1024&width=1080&height=1610",
+          "alt": "",
+          "width": 648,
+          "height": 967
+        },
+        {
+          "src": "https://framerusercontent.com/images/AgsXRemvLmygbc9WSogDtqhSS8.jpg?width=1080&height=1537",
+          "alt": "",
+          "width": 1440,
+          "height": 2049
+        },
+        {
+          "src": "https://framerusercontent.com/images/pIg8HnpPQrlmZYV54D7wTrbKhIc.jpg?width=1080&height=1619",
+          "alt": "",
+          "width": 1440,
+          "height": 2158
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Photography",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm20": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/jbEaFgVJt9BANOmEfn6zkoHkPug.jpg?scale-down-to=1024&width=2060&height=2966",
+          "alt": "",
+          "width": 648,
+          "height": 933
+        },
+        {
+          "src": "https://framerusercontent.com/images/ToNC7xbWGy8ftj8DTCVUxUvcc.jpg?width=1280&height=1920",
+          "alt": "",
+          "width": 1440,
+          "height": 2160
+        },
+        {
+          "src": "https://framerusercontent.com/images/Y47IVJxmKc4idd5x3421gCuSQE.jpg?scale-down-to=2048&width=2161&height=2857",
+          "alt": "",
+          "width": 1440,
+          "height": 1903
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "ed-comm21": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/LQb2DHhKIVSKo19ftZdiLMyzMpk.jpg?scale-down-to=1024&width=1064&height=1440",
+          "alt": "",
+          "width": 648,
+          "height": 877
+        },
+        {
+          "src": "https://framerusercontent.com/images/QeVqrrnV44EmhvJGLrkqnlEQ4.jpg?width=1500&height=1066",
+          "alt": "",
+          "width": 1440,
+          "height": 1023
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Ed/Comm",
+        "Production, Creative Direction",
+        "PREVIOUS",
+        "NEXT",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    },
+    "dimplehsu3": {
+      "imgs": [
+        {
+          "src": "https://framerusercontent.com/images/YlrApr6kSpBKo5iCaBtPbnBBCc.jpg?scale-down-to=1024&width=750&height=1123",
+          "alt": "",
+          "width": 648,
+          "height": 971
+        },
+        {
+          "src": "https://framerusercontent.com/images/o8g9Nd2FpRSGmvvXiustsUJfbY.jpg?width=1050&height=1572",
+          "alt": "",
+          "width": 1439,
+          "height": 2155
+        }
+      ],
+      "title": "",
+      "bodyText": [
+        "Kate Tan",
+        "projects,",
+        "info",
+        "Dimplehsu",
+        "Styling",
+        "PREVIOUS",
+        "KATETAN.US@GMAIL.COM",
+        "katetan.us@gmail.com"
+      ]
+    }
+  },
+  "about": {
+    "imgs": [
+      {
+        "src": "https://framerusercontent.com/images/fPZjLKbLoDuFFXkVd8NNkWIy6U.jpg?scale-down-to=1024&width=1280&height=1767",
+        "alt": "",
+        "width": 419,
+        "height": 579
+      }
+    ],
+    "title": "",
+    "bodyText": [
+      "Kate Tan",
+      "projects,",
+      "info",
+      "Kate Tan is a Chinese-born creative producer based in New York. She works in fashion & commercial image production across China and the U.S., helping brands, agencies, and producers deliver projects through full-service production, cross-border shoot support, post-production management, and strategic orchestration of production resources between both regions.",
+      "INSTAGRAM",
+      "LINKEDIN",
+      "KATETAN.US@GMAIL.COM",
+      "katetan.us@gmail.com"
+    ]
+  }
+}
