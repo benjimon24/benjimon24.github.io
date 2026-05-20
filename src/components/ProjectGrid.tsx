@@ -3,20 +3,33 @@ import { Link } from "react-router-dom";
 import { projects } from "../data/photos";
 import { justifyLayout } from "../lib/justifyLayout";
 
-// Gap scales with viewport so tablets don't waste horizontal space
-const getGap = (width: number) => {
-  if (width < 768) return 32;
-  if (width < 1280) return 56;
-  if (width < 1600) return 80;
-  return 96;
+// Three breakpoints: phone (stacked), tablet (2 cols), desktop (3 cols).
+// Note these thresholds are checked against the *inner* container width
+// (already excluding the parent section's horizontal padding), not the
+// raw viewport — that's what ResizeObserver gives us.
+
+const PHONE_MAX = 600;
+const TABLET_MAX = 1100;
+
+const colsForWidth = (width: number) => {
+  if (width < PHONE_MAX) return 1; // mobile: stacked single column
+  if (width < TABLET_MAX) return 2; // tablet
+  return 3; // desktop
 };
 
-const getTargetRowHeight = (width: number) => {
-  if (width < 640) return 0; // mobile fallback: single column
-  if (width < 900) return 320; // small tablets
-  if (width < 1280) return 440; // iPad Air portrait & landscape
-  if (width < 1600) return 600; // small laptops
-  return 760; // wide desktops
+const getGap = (width: number) => {
+  if (width < PHONE_MAX) return 24;
+  if (width < TABLET_MAX) return 56;
+  return 80;
+};
+
+const getTargetRowHeight = (width: number, avgRatio: number) => {
+  const cols = colsForWidth(width);
+  if (cols < 2) return 0; // mobile falls back to a single-column stack
+  const gap = getGap(width);
+  // containerWidth is already padding-stripped; subtract only gaps.
+  const usable = width - (cols - 1) * gap;
+  return Math.round(usable / (cols * avgRatio));
 };
 
 export const ProjectGrid: React.FC = () => {
@@ -45,7 +58,14 @@ export const ProjectGrid: React.FC = () => {
     []
   );
 
-  const targetHeight = getTargetRowHeight(containerWidth);
+  // Use the actual average cover aspect ratio so layout math matches
+  // the real mix of portrait + landscape covers in the data.
+  const avgRatio = useMemo(() => {
+    const total = items.reduce((s, i) => s + i.width / i.height, 0);
+    return items.length > 0 ? total / items.length : 0.7;
+  }, [items]);
+
+  const targetHeight = getTargetRowHeight(containerWidth, avgRatio);
   const gap = getGap(containerWidth);
   const rows = useMemo(
     () =>

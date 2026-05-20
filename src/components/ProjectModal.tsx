@@ -77,13 +77,16 @@ export const ProjectModal: React.FC<Props> = ({ slug }) => {
             <figure
               key={photo.src}
               onClick={(e) => e.stopPropagation()}
-              className="overflow-hidden"
+              className="flex justify-center"
             >
               <img
                 src={photo.src}
                 alt={`${project.title} — ${i + 1}`}
                 loading={i === 0 ? "eager" : "lazy"}
-                className="block w-full"
+                // Cap each photo to viewport height (minus a margin for
+                // the fixed top bar) so the whole image is visible at
+                // once. Width auto so aspect ratio is preserved.
+                className="block h-auto max-h-[85svh] w-auto max-w-full object-contain"
               />
             </figure>
           ))}

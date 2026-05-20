@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
 
 const App: React.FC = () => {
   return (
@@ -11,7 +10,9 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Home />} />
           <Route path="/gallery/:slug" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* /about lives at the bottom of Home; the route is kept so
+              direct links work and Home scrolls to #about on mount. */}
+          <Route path="/about" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
