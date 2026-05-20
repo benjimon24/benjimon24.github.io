@@ -1,17 +1,30 @@
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef, useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { findProject, findProjectIndex, projects } from "../data/photos";
 
 type Props = { slug: string };
 
+const FADE_MS = 300;
+
 export const ProjectModal: React.FC<Props> = ({ slug }) => {
   const navigate = useNavigate();
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
 
   const project = findProject(slug);
   const index = findProjectIndex(slug);
 
-  const close = useCallback(() => navigate("/gallery"), [navigate]);
+  // Animate in on mount — flip to visible on the next frame so the
+  // initial opacity-0 paints before the transition starts.
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setVisible(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  const close = useCallback(() => {
+    setVisible(false);
+    window.setTimeout(() => navigate("/gallery"), FADE_MS);
+  }, [navigate]);
 
   const goTo = useCallback(
     (newIndex: number) => {
@@ -48,7 +61,9 @@ export const ProjectModal: React.FC<Props> = ({ slug }) => {
       role="dialog"
       aria-modal="true"
       aria-label={project.title}
-      className="fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-sm"
+      className={`fixed inset-0 z-50 bg-stone-950/85 backdrop-blur-sm transition-opacity duration-300 ease-out ${
+        visible ? "opacity-100" : "opacity-0"
+      }`}
     >
       {/* Right-aligned scrolling photo column. Click on backdrop (left or
           around the column) closes. */}

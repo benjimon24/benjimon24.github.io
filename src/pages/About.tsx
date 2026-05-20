@@ -2,46 +2,44 @@ import { site } from "../data/site";
 
 export const About: React.FC = () => {
   return (
-    <section className="mx-auto max-w-6xl px-8 py-48 lg:px-12 lg:py-64">
-      <div className="grid grid-cols-1 gap-20 lg:grid-cols-12 lg:gap-32">
+    // Fill the viewport so the About content + footer fit in one screen.
+    // 200px ≈ header (sticky) + footer total height.
+    <section className="mx-auto flex min-h-[calc(100svh-200px)] w-full max-w-6xl items-center px-8 py-10 lg:px-12 lg:py-12">
+      <div className="grid w-full grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5">
           <img
             src={site.aboutPortrait}
             alt={site.name}
-            className="w-full object-cover"
+            className="block max-h-[65vh] w-full object-cover"
           />
         </div>
-        <div className="space-y-12 lg:col-span-7">
-          <p className="text-xs tracking-[0.4em] text-stone-500">
-            About
-          </p>
-          <h1
-            className="text-4xl leading-tight text-stone-900 sm:text-5xl"
-          >
+        <div className="min-w-0 space-y-6 lg:col-span-7">
+          <p className="text-[10px] tracking-[0.4em] text-stone-500">about</p>
+          <h1 className="max-w-full text-3xl leading-tight text-stone-900 sm:text-4xl">
             {site.name}
-            <span className="block text-2xl text-stone-500 sm:text-3xl">
+            <span className="mt-1 block text-lg text-stone-500 sm:text-xl">
               {site.role}, {site.location}
             </span>
           </h1>
-          <p className="max-w-prose text-lg leading-relaxed text-stone-700">
+          <p className="max-w-prose text-sm leading-relaxed text-stone-700 sm:text-base">
             {site.bio}
           </p>
 
-          <dl className="grid grid-cols-1 gap-8 border-t border-stone-200 pt-12 sm:grid-cols-2">
+          <dl className="grid grid-cols-1 gap-6 border-t border-stone-200 pt-6 sm:grid-cols-2">
             <div>
               <dt className="text-[10px] tracking-[0.3em] text-stone-500">
-                Based in
+                based in
               </dt>
-              <dd className="mt-2 text-stone-900">{site.location}</dd>
+              <dd className="mt-1.5 text-sm text-stone-900">{site.location}</dd>
             </div>
             <div>
               <dt className="text-[10px] tracking-[0.3em] text-stone-500">
-                Contact
+                contact
               </dt>
-              <dd className="mt-2">
+              <dd className="mt-1.5 text-sm">
                 <a
                   href={`mailto:${site.email}`}
-                  className="case-normal text-stone-900 underline-offset-4 hover:underline"
+                  className="case-normal break-all text-stone-900 underline-offset-4 hover:underline"
                 >
                   {site.email}
                 </a>

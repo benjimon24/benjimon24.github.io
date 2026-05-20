@@ -80,7 +80,7 @@ export const Home: React.FC = () => {
       {/* Project grid */}
       <section
         id="work"
-        className="mx-auto max-w-7xl scroll-mt-24 px-8 py-48 lg:px-12 lg:py-64"
+        className="mx-auto max-w-7xl scroll-mt-24 px-8 py-32 lg:px-12 lg:py-36"
       >
         <div className="mb-16 flex items-end justify-between lg:mb-20">
           <h2 className="text-3xl text-stone-900 sm:text-4xl">Selected Work</h2>
